@@ -16,7 +16,7 @@ const imageList:string[] = ["https://hyzpublic.s3.amazonaws.com/portfolio/Portfo
 
 export const Designer=()=>{
     return(
-        <div className='flex bg-black flex-col max-w-full'>
+        <div className='flex bg-black bg-opacity-70 flex-col'>
             <Header />
             <ImageBrowser images={imageList}/>
         </div>)
@@ -24,13 +24,14 @@ export const Designer=()=>{
 }
 
 const Header = () =>(
-    <div className="flex justify-start flex-col bg-black mb-5">
+    <div className="flex justify-start flex-col mb-5">
             <div className="flex">
                 <div className="w-1/4"></div>
                 <div className="md:w-1/4 flex flex-col mt-20">
                     <h1 className="text-red-500 text-xl font-bold">MY PORTFOLIO</h1>
                     <h2 className="text-white text-4xl">As a <span className="font-bold">Designer</span></h2>
                     <p className="text-white text-md max-w-md">At this part, I will introduce what I have done as a designer. My portfolio will tell you the story.</p>
+                    <p className='sm:hidden text-red-500'>Please use a larger screen</p>
                 </div>
                 </div>
             </div>
@@ -59,7 +60,7 @@ const ImageBrowser: React.FC<ImageBrowserProps> = ({ images }) => {
   };
 
   return (
-    <div className="flex justify-between max-w-full mx-auto px-4">
+    <div className="sm:flex max-w-full mx-auto px-4 md:mb-20 mb-5 overflow-x-auto hidden">
       <button
         className="p-4 m-2  rounded shadow text-red-500 font-bold md:text-4xl hover:bg-white text-xl"
         onClick={goToPrevious}
@@ -69,7 +70,7 @@ const ImageBrowser: React.FC<ImageBrowserProps> = ({ images }) => {
       <img
         src={images[currentIndex]}
         alt="Displayed content"
-        className="w-auto"
+        className="max-w-full"
         onClick={handleImageClick}
       />
       <button
