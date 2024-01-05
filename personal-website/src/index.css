@@ -10,3 +10,8 @@ body {
   background-size: cover;
   background-position: center;
 }
+.flex-container {
+  max-width: 100vw; /* 确保 flex 容器宽度不超过视口宽度 */
+  box-sizing: border-box;
+  overflow: auto;
+}

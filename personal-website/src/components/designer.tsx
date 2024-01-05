@@ -1,6 +1,18 @@
 import React, { useState } from 'react';
 
-const imageList:string[] = ["https://hyzpublic.s3.amazonaws.com/portfolio/Portfolio-1+.jpg","https://hyzpublic.s3.amazonaws.com/portfolio/Portfolio+-2.jpg","https://hyzpublic.s3.amazonaws.com/portfolio/Portfolio+-3.jpg","https://hyzpublic.s3.amazonaws.com/portfolio/Portfolio+-4.jpg"]
+const imageList:string[] = ["https://hyzpublic.s3.amazonaws.com/portfolio/Portfolio-1+.jpg",
+"https://hyzpublic.s3.amazonaws.com/portfolio/Portfolio+-2.jpg",
+"https://hyzpublic.s3.amazonaws.com/portfolio/Portfolio+-3.jpg",
+"https://hyzpublic.s3.amazonaws.com/portfolio/Portfolio+-4.jpg",
+"https://hyzpublic.s3.amazonaws.com/portfolio/Portfolio+-5.jpg",
+"https://hyzpublic.s3.amazonaws.com/portfolio/Portfolio+-6.jpg",
+"https://hyzpublic.s3.amazonaws.com/portfolio/Portfolio+-7.jpg",
+"https://hyzpublic.s3.amazonaws.com/portfolio/Portfolio+-8.jpg",
+"https://hyzpublic.s3.amazonaws.com/portfolio/Portfolio+-9.jpg",
+"https://hyzpublic.s3.amazonaws.com/portfolio/Portfolio+-10.jpg",
+"https://hyzpublic.s3.amazonaws.com/portfolio/Portfolio+-11.jpg",
+"https://hyzpublic.s3.amazonaws.com/portfolio/Portfolio+-12.jpg",
+"https://hyzpublic.s3.amazonaws.com/portfolio/Portfolio+-13.jpg",]
 
 export const Designer=()=>{
     return(
@@ -58,7 +70,7 @@ const [isFullscreen, setIsFullscreen] = useState(false);
       <img
         src={images[currentIndex]}
         alt="Displayed content"
-        className="w-auto max-h-96"
+        className="w-auto"
         onClick={handleImageClick}
       />
       <button
