@@ -44,7 +44,6 @@ interface ImageBrowserProps {
 }
 
 const ImageBrowser: React.FC<ImageBrowserProps> = ({ images }) => {
-const [isFullscreen, setIsFullscreen] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const goToPrevious = () => {
