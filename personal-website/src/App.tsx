@@ -7,6 +7,7 @@ import { Footer } from './components/footer'
 import { SpeedInsights } from '@vercel/speed-insights/react';
 import { MyCareer } from './components/myCareer'
 import {MyHobbyPage} from './components/hobbie'
+import { ContactInfo } from './components/contactInfo'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <MyCareer />
       <Designer />
       <MyHobbyPage />
+      <ContactInfo />
       <Footer />
     </div>
     

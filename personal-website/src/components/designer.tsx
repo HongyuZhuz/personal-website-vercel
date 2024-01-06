@@ -23,7 +23,7 @@ export const Designer=()=>{
           <div className='flex flex-col  max-w-5xl mx-auto'>
             <Header />
           </div>
-          <div className=" pb-10 md:pb-20 mt-5 md:px-10 ">
+          <div className=" pb-10 md:pb-20 mt-5 md:px-10 text-red-500">
           <ImageGallery items={images} showThumbnails={false}/>
           </div>
         </div>
