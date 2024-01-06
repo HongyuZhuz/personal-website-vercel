@@ -17,5 +17,6 @@ body {
   body {
     background-size: 200%; /* 使图片稍微缩小以显示更多的中心部分 */
     background-position: center center; /* 保持中心对齐 */
+    background-attachment:fixed;
   }
 }
