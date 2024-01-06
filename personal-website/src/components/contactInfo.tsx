@@ -14,7 +14,7 @@ export const ContactInfo = () => {
             </div>
           
         </div>
-        <div className="md:flex-1 hidden">
+        <div className="md:flex-1 md:flex hidden">
             <div 
                 className="w-full h-full bg-cover bg-center bg-no-repeat bg-white"
                 style={{ 
