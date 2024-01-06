@@ -116,7 +116,7 @@ const Education = () =>{
 
 const SkillList = () =>{
     return (
-        <div className="md:w-1/2 mt-8 flex md:justify-start justify-center">
+        <div className="md:w-1/2 mt-8 flex md:justify-start justify-center mb-5">
             <div>
                 <h2 className="text-4xl mb-4 ml-1">My Skills</h2>
                 <div>
