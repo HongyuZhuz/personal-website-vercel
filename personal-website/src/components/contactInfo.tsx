@@ -8,7 +8,7 @@ export const ContactInfo = () => {
             <div className="flex items-center flex-col">
                 <div className="md:text-4xl font-bold mb-4 text-3xl">CONTACT INFO</div>
                 <div className="text-lg">
-                <p>Email: Hongxu.Zhu.zx@gmail.com</p>
+                <p>Email: Hongxu.Zhu.zz@gmail.com</p>
                 <p >Tel: +61 0412113528</p>
             </div>
             </div>
