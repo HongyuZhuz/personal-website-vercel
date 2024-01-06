@@ -6,6 +6,7 @@ import { Designer } from './components/designer'
 import { Footer } from './components/footer'
 import { SpeedInsights } from '@vercel/speed-insights/react';
 import { MyCareer } from './components/myCareer'
+import {MyHobbyPage} from './components/hobbie'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <MyEducationSection />
       <MyCareer />
       <Designer />
+      <MyHobbyPage />
       <Footer />
     </div>
     

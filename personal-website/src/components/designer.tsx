@@ -16,28 +16,30 @@ const imageList:string[] = ["https://hyzpublic.s3.amazonaws.com/portfolio/Portfo
 
 export const Designer=()=>{
     return(
-        <div className='flex bg-black bg-opacity-70 flex-col'>
+        <div className=" bg-black bg-opacity-70 flex-col">
+          <div className='flex flex-col  max-w-5xl mx-auto'>
             <Header />
-            <ImageBrowser images={imageList}/>
+          </div>
+          <div className='flex justify-center'>
+          <ImageBrowser images={imageList}/>
+          </div>
         </div>)
     
 }
 
 const Header = () =>(
-    <div className="flex justify-start flex-col mb-5">
-            <div className="flex">
-                <div className="w-1/4"></div>
-                <div className="md:w-1/4 flex flex-col mt-20">
-                    <h1 className="text-red-500 text-xl font-bold">MY PORTFOLIO</h1>
-                    <h2 className="text-white text-4xl">As a <span className="font-bold">Designer</span></h2>
-                    <p className="text-white text-md max-w-md">At this part, I will introduce what I have done as a designer. My portfolio will tell you the story.</p>
-                    <p className='sm:hidden text-red-500'>Please use a larger screen</p>
-                </div>
-                </div>
-            </div>
+  <>
+    <header className="text-white mt-8 ml-8">
+        <div className=" flex flex-col mt-20">
+            <h1 className="text-red-500 text-xl font-bold">MY PORTFOLIO</h1>
+            <h2 className="text-white text-4xl">As a <span className="font-bold">Designer</span></h2>
+            <p className="text-white text-md max-w-xl">At this part, I will introduce what I have done as a designer. My portfolio will tell you the story.</p>
+            <p className='sm:hidden text-red-500'>Please use a larger screen</p>
+        </div>
+    </header>
+  </>
+    
 )
-
-
 
 
 interface ImageBrowserProps {
@@ -70,7 +72,7 @@ const ImageBrowser: React.FC<ImageBrowserProps> = ({ images }) => {
       <img
         src={images[currentIndex]}
         alt="Displayed content"
-        className="max-w-full"
+        className="max-w-full max-h-96 mt-4"
         onClick={handleImageClick}
       />
       <button
