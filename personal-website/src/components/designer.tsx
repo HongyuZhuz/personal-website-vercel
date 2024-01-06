@@ -21,10 +21,10 @@ export const Designer=()=>{
             <Header />
           </div>
           <div className='flex justify-center'>
-          <ImageBrowser images={imageList}/>
+            <ImageBrowser images={imageList}/>
           </div>
-        </div>)
-    
+        </div>
+        )
 }
 
 const Header = () =>(
@@ -34,7 +34,6 @@ const Header = () =>(
             <h1 className="text-red-500 text-xl font-bold">MY PORTFOLIO</h1>
             <h2 className="text-white text-4xl">As a <span className="font-bold">Designer</span></h2>
             <p className="text-white text-md max-w-xl">At this part, I will introduce what I have done as a designer. My portfolio will tell you the story.</p>
-            <p className='sm:hidden text-red-500'>Please use a larger screen</p>
         </div>
     </header>
   </>
@@ -62,7 +61,7 @@ const ImageBrowser: React.FC<ImageBrowserProps> = ({ images }) => {
   };
 
   return (
-    <div className="sm:flex max-w-full mx-auto px-4 md:mb-20 mb-5 overflow-x-auto hidden">
+    <div className="flex max-w-full mx-auto px-4 md:mb-20 mb-5 overflow-x-auto">
       <button
         className="p-4 m-2  rounded shadow text-red-500 font-bold md:text-4xl hover:bg-white text-xl"
         onClick={goToPrevious}
