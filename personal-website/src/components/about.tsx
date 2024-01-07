@@ -15,7 +15,7 @@ export const AboutMe = () => {
     return(
         <>
         <div className="justify-self-center md:justify-self-end">
-            <img src="/my-profile-pic-2.jpg" alt="Profile" className=" border-2 border-red-500 mr-10 ml-10 mt-20 w-80" width={300} height={300}/>
+            <img src="https://hyzpublic.s3.amazonaws.com/my-profile-pic-2.jpg" alt="Profile" className=" border-2 border-red-500 mr-10 ml-10 mt-20 w-80" width={300} height={300}/>
         </div>
         </> 
     )
@@ -23,7 +23,7 @@ export const AboutMe = () => {
 
   const WhoIAm = () =>{
     return(
-        <div className=" md:basis-1/2 bg-black text-white p-10 max-w-md justify-self-cente">
+        <div className=" md:basis-1/2 bg-black  text-white p-10 max-w-md justify-self-cente">
             <div className="mb-4">
                 <h2 className="text-xl mb-2 text-red-500 md:text-2xl font-bold">ABOUT ME</h2>
                 <h1 className="text-4xl font-bold mb-4 md:text-5xl">Who I am?</h1>
