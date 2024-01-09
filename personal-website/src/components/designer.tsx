@@ -3,19 +3,19 @@ import "react-image-gallery/styles/css/image-gallery.css";
 
 
 
-const images = [{original:"https://hyzpublic.s3.amazonaws.com/portfolio/Portfolio-1+.jpg"},
-{original:"https://hyzpublic.s3.amazonaws.com/portfolio/Portfolio+-2.jpg"},
-{original:"https://hyzpublic.s3.amazonaws.com/portfolio/Portfolio+-3.jpg"},
-{original:"https://hyzpublic.s3.amazonaws.com/portfolio/Portfolio+-4.jpg"},
-{original:"https://hyzpublic.s3.amazonaws.com/portfolio/Portfolio+-5.jpg"},
-{original:"https://hyzpublic.s3.amazonaws.com/portfolio/Portfolio+-6.jpg"},
-{original:"https://hyzpublic.s3.amazonaws.com/portfolio/Portfolio+-7.jpg"},
-{original:"https://hyzpublic.s3.amazonaws.com/portfolio/Portfolio+-8.jpg"},
-{original:"https://hyzpublic.s3.amazonaws.com/portfolio/Portfolio+-9.jpg"},
-{original:"https://hyzpublic.s3.amazonaws.com/portfolio/Portfolio+-10.jpg"},
-{original:"https://hyzpublic.s3.amazonaws.com/portfolio/Portfolio+-11.jpg"},
-{original:"https://hyzpublic.s3.amazonaws.com/portfolio/Portfolio+-12.jpg"},
-{original:"https://hyzpublic.s3.amazonaws.com/portfolio/Portfolio+-13.jpg"},]
+const images = [{original:"https://hyzpublic.s3.amazonaws.com/portfolio-webp/Portfolio-1+.webp"},
+{original:"https://hyzpublic.s3.amazonaws.com/portfolio-webp/Portfolio-2.webp"},
+{original:"https://hyzpublic.s3.amazonaws.com/portfolio-webp/Portfolio-3.webp"},
+{original:"https://hyzpublic.s3.amazonaws.com/portfolio-webp/Portfolio-4.webp"},
+{original:"https://hyzpublic.s3.amazonaws.com/portfolio-webp/Portfolio-5.webp"},
+{original:"https://hyzpublic.s3.amazonaws.com/portfolio-webp/Portfolio-6.webp"},
+{original:"https://hyzpublic.s3.amazonaws.com/portfolio-webp/Portfolio-7.webp"},
+{original:"https://hyzpublic.s3.amazonaws.com/portfolio-webp/Portfolio-8.webp"},
+{original:"https://hyzpublic.s3.amazonaws.com/portfolio-webp/Portfolio+-9.webp"},
+{original:"https://hyzpublic.s3.amazonaws.com/portfolio-webp/Portfolio+-10.webp"},
+{original:"https://hyzpublic.s3.amazonaws.com/portfolio-webp/Portfolio+-11.webp"},
+{original:"https://hyzpublic.s3.amazonaws.com/portfolio-webp/Portfolio+-12.webp"},
+{original:"https://hyzpublic.s3.amazonaws.com/portfolio-webp/Portfolio+-13.webp"},]
 
 export const Designer=()=>{
     return(

@@ -15,7 +15,7 @@ export const AboutMe = () => {
     return(
         <>
         <div className="justify-self-center md:justify-self-end">
-            <img src="https://hyzpublic.s3.amazonaws.com/my-profile-pic-2.jpg" alt="Profile" className=" border-2 border-red-500 mr-10 ml-10 mt-20 w-80" width={300} height={300}/>
+            <img src="https://hyzpublic.s3.amazonaws.com/My-profile.webp" alt="Profile" className=" border-2 border-red-500 mr-10 ml-10 mt-20 w-80" width={300} height={300}/>
         </div>
         </> 
     )
