@@ -108,7 +108,7 @@ const Education = () =>{
                 <p className="text-red-500 font-bold">2014-2018</p>
                 <h2 className="text-2xl font-bold">Bachelor of Landscape Architecture</h2>
                 <p className="text-sm">Beijing Forestry University offers the best Landscape Architecture program in China. This four-year curriculum enabled me to develop deep understanding in the area Architecture, Landscape Architecture and Digital Design.</p>
-                <a href="#more" className="text-red-500 underline">More</a>
+                <a href="#designer" className="text-red-500 underline">More</a>
             </div>
         </div>
     )
