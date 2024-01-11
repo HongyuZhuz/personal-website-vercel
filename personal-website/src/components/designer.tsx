@@ -24,7 +24,7 @@ export const Designer=()=>{
             <Header />
           </div>
           <div className=" pb-10 md:pb-20 mt-5 md:px-10 text-red-500">
-          <ImageGallery items={images} showThumbnails={false}/>
+          <ImageGallery items={images} showThumbnails={false} lazyLoad = {true} showPlayButton={false}/>
           </div>
         </div>
         )

@@ -40,7 +40,7 @@ export const MyHobbyPage: React.FC = () => {
     <div className='min-h-screen bg-black text-white md:pb-20 pb-10'>
       <div className="flex flex-col max-w-5xl mx-auto">
         <Header/>
-        <ImageGallery items={images} showThumbnails={false}/>
+        <ImageGallery items={images} showThumbnails={false} lazyLoad = {true} showPlayButton={false}/>
       </div>
     </div>
   );

@@ -11,10 +11,10 @@ export const HeroSection:React.FC = ()=>{
                         <p className="text-white">AND</p>
                         <p className="text-red-500 font-bold">Designer</p>
                     </div>
-                    <p className="text-md max-w-md ml-2">If you are looking for someone with professional developing skills and impressive design ability, I would be your perfect choice.</p> 
-                    <button className="ml-2 mt-8 bg-red-500 hover:bg-red-700 text-white py-1 px-3 rounded-lg">
+                    <p className="text-md max-w-md ml-2 mb-8">If you are looking for someone with professional developing skills and impressive design ability, I would be your perfect choice.</p> 
+                    <a className="ml-2 bg-red-500 hover:bg-red-700 text-white py-1 px-3 rounded-lg" href="#about-me">
                         Learn more
-                    </button>
+                    </a>
                 </div>
 
             </div>

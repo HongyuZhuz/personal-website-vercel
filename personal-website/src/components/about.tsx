@@ -2,7 +2,7 @@
 
 export const AboutMe = () => {
     return (
-      <section className="about-me-section w-full bg-black">
+      <section className="about-me-section w-full bg-black" id="about-me">
         <div className="flex md:flex-row flex-col justify-center ">
             <ProfilePic />
             <WhoIAm /> 
