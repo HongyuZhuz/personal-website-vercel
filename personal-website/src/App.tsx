@@ -12,7 +12,7 @@ import { ContactInfo } from './components/contactInfo'
 function App() {
   
   return (
-    <div>
+    <div id='top'>
       <HeroSection />
       <AboutMe />
       <MyEducationSection />

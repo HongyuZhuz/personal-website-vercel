@@ -29,7 +29,7 @@ export const HeroSection:React.FC = ()=>{
 const Nav = () =>{
     return(
       <Navbar fluid rounded className='bg-black text-white md:py-3 xl:px-64 fixed top-0 w-full z-50 bg-opacity-60'>
-        <Navbar.Brand  href="https://hongyu-zhu.com">
+        <Navbar.Brand  href="#top">
           <img src="/favicon.ico" className="mr-3 h-3 sm:h-5" alt="Flowbite React Logo" />
           <span className="self-center whitespace-nowrap text-xl font-semibold text-white">Hongyu Zhu</span>
         </Navbar.Brand>
