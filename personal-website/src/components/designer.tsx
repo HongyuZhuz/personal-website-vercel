@@ -19,7 +19,7 @@ const images = [{original:"https://hyzpublic.s3.amazonaws.com/portfolio-webp/Por
 
 export const Designer=()=>{
     return(
-        <div className=" bg-black bg-opacity-70 flex-col">
+        <div className=" bg-black bg-opacity-70 flex-col" id="portfolio">
           <div className='flex flex-col  max-w-5xl mx-auto' id="designer">
             <Header />
           </div>

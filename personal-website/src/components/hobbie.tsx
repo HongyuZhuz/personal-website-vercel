@@ -37,7 +37,7 @@ export const MyHobbyPage: React.FC = () => {
   ];
 
   return (
-    <div className='min-h-screen bg-black text-white md:pb-20 pb-10'>
+    <div className='min-h-screen bg-black text-white md:pb-20 pb-10' id="hobbie">
       <div className="flex flex-col max-w-5xl mx-auto">
         <Header/>
         <ImageGallery items={images} showThumbnails={false} lazyLoad = {true} showPlayButton={false}/>

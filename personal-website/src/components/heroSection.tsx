@@ -1,9 +1,11 @@
-
+import { Navbar } from 'flowbite-react'
 
 export const HeroSection:React.FC = ()=>{
     return(
-        <section>
-            <div className="w-full bg-black bg-opacity-50 bg-cover bg-no-repeat text-white p-12 mt-20 mb-20">
+        <div>
+            <Nav />
+            <section id="home">
+            <div className="w-full bg-black bg-opacity-50 bg-cover bg-no-repeat text-white p-12 mt-32 mb-20">
                 <div className="md:w-1/2 md:mx-auto ">
                     <p className="text-3xl ml-1">I&apos;m Hongyu Zhu</p>
                     <div className="text-6xl mb-3 md:text-8xl mt-0">
@@ -18,6 +20,39 @@ export const HeroSection:React.FC = ()=>{
                 </div>
 
             </div>
-        </section> 
+            </section> 
+        </div>
+        
     )
 }
+
+const Nav = () =>{
+    return(
+      <Navbar fluid rounded className='bg-black text-white md:py-3 xl:px-64 fixed top-0 w-full z-50 bg-opacity-60'>
+        <Navbar.Brand  href="https://hongyu-zhu.com">
+          <img src="/favicon.ico" className="mr-3 h-3 sm:h-5" alt="Flowbite React Logo" />
+          <span className="self-center whitespace-nowrap text-xl font-semibold text-white">Hongyu Zhu</span>
+        </Navbar.Brand>
+        <Navbar.Toggle/>
+        <Navbar.Collapse>
+          <Navbar.Link href="#home" className='hover:bg-white hover:text-red-500 text-white md:hover:text-red-500'>
+            <span className='hover:text-red-500 md:hover:text-red-500 dark:hover:text-red-500'>Home</span>
+          </Navbar.Link>
+          <Navbar.Link href="#about-me" className='hover:bg-white hover:text-red-500 text-white md:hover:text-red-500'>
+          <span className='hover:text-red-500'>About Me</span>
+          </Navbar.Link>
+          <Navbar.Link href="#education" className='hover:bg-white hover:text-red-500 text-white md:hover:text-red-500'>
+            <span className='hover:text-red-500'>Education</span>
+          </Navbar.Link>
+          <Navbar.Link href="#career" className='hover:bg-white hover:text-red-500 text-white md:hover:text-red-500'>
+            <span className='hover:text-red-500'>Career</span></Navbar.Link>
+          <Navbar.Link href="#portfolio" className='hover:bg-white hover:text-red-500 text-white md:hover:text-red-500'>
+            <span className='hover:text-red-500'>Portfolio</span>
+          </Navbar.Link>
+          <Navbar.Link href="#hobbie" className='hover:bg-white hover:text-red-500 text-white md:hover:text-red-500'>
+            <span className='hover:text-red-500'>Hobbie</span>
+          </Navbar.Link>
+        </Navbar.Collapse>
+      </Navbar>
+    )
+  }

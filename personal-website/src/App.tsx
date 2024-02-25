@@ -4,7 +4,6 @@ import { AboutMe } from './components/about'
 import { MyEducationSection } from './components/education'
 import { Designer } from './components/designer'
 import { Footer } from './components/footer'
-import { SpeedInsights } from '@vercel/speed-insights/react';
 import { MyCareer } from './components/myCareer'
 import {MyHobbyPage} from './components/hobbie'
 import { ContactInfo } from './components/contactInfo'
@@ -14,7 +13,6 @@ function App() {
   
   return (
     <div>
-      <SpeedInsights />
       <HeroSection />
       <AboutMe />
       <MyEducationSection />
@@ -27,5 +25,7 @@ function App() {
     
   )
 }
+
+
 
 export default App

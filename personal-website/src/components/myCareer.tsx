@@ -98,7 +98,7 @@ interface HeaderProps {
   
   // App 组件，作为应用程序的根组件
   export const MyCareer: React.FC = () => (
-    <div>
+    <div id="career">
       <CareerPage />
     </div>
   );

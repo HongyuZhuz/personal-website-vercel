@@ -48,7 +48,7 @@ let designSkill:Array<SkillProps> = [
 
 export const MyEducationSection = ()=>{
     return(
-        <section>
+        <section id="education">
             <div className="bg-black bg-opacity-70 text-white p-10">
                     
                     <div className="flex flex-col md:flex-row md:ml-10">
